@@ -1,43 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata Neymar Jr.</title>
+    <title>Neymar Jr - Halaman Interaktif</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<script src="script.js"></script>
 <body>
-    <h1>Biodata Neymar Jr.</h1>
-    
-    <h2>Informasi Pribadi</h2>
-    <p><strong>Nama Lengkap:</strong> Neymar da Silva Santos Júnior</p>
-    <p><strong>Nama Panggilan:</strong> Neymar Jr.</p>
-    <p><strong>Tanggal Lahir:</strong> 5 Februari 1992</p>
-    <p><strong>Tempat Lahir:</strong> Mogi das Cruzes, São Paulo, Brasil</p>
-    <p><strong>Kewarganegaraan:</strong> Brasil</p>
-    <p><strong>Posisi:</strong> Penyerang</p>
-    <p><strong>Tinggi:</strong> 1,75 m</p>
-    <p><strong>Klub Saat Ini:</strong> Al Hilal SFC</p>
-    <p><strong>Nomor Punggung:</strong> 10</p>
-    <p><strong>Instagram:</strong> <a href="https://instagram.com/neymarjr" target="_blank">@neymarjr</a></p>
+    <header>
+        <h1>Neymar Jr</h1>
+        <nav>
+            <ul>
+                <li><a href="#biografi">Biografi</a></li>
+                <li><a href="#statistik">Statistik</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2>Sejarah Karir</h2>
-    <p><strong>2010-2013 - Santos FC:</strong> Memulai karir di Santos FC dan menjadi sorotan global dengan keterampilan yang luar biasa.</p>
-    <p><strong>2013-2017 - Barcelona:</strong> Bergabung dengan Barcelona, membentuk trio terkenal "MSN" bersama Messi dan Suárez, memenangkan beberapa gelar termasuk Liga Champions UEFA.</p>
-    <p><strong>2017 - Sekarang - PSG dan Al Hilal:</strong> Pindah ke PSG dengan transfer rekor dunia. Pada 2023, bergabung dengan Al Hilal SFC.</p>
-    <p><strong>Tim Nasional Brasil:</strong> Kontribusi signifikan termasuk medali emas Olimpiade 2016.</p>
+    <section class="hero">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="neymar jr1.jpeg" alt="Neymar Jr" style="width:100%">
+            <div class="mySlides fade">
+                <img src="neymar jr2.jpeg" alt="Neymar Jr" style="width:100%">
+            </div>
+        </div>
+        <div class="slideshow-dots">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+        </div>
+    </section>
 
-    <h2>Pencapaian Gol</h2>
-    <p><strong>Santos FC:</strong> 136 gol dalam 225 pertandingan.</p>
-    <p><strong>Barcelona:</strong> 105 gol dalam 186 pertandingan.</p>
-    <p><strong>Paris Saint-Germain:</strong> 118 gol dalam 173 pertandingan.</p>
-    <p><strong>Tim Nasional Brasil:</strong> 79 gol dalam 124 pertandingan (per 2023), menjadi salah satu pencetak gol terbanyak dalam sejarah tim nasional.</p>
+    <section id="biografi">
+        <h2>Biografi</h2>
+        <p>Neymar Jr. lahir pada 5 Februari 1992, di Mogi das Cruzes, Brasil. Ia mulai bermain sepak bola di usia dini dan bergabung dengan Santos FC pada usia 11 tahun. Neymar dikenal karena kecepatan, teknik dribbling yang luar biasa, dan kreativitasnya di lapangan.</p>
+        <p>Setelah sukses di Santos, ia bergabung dengan Barcelona pada tahun 2013, di mana ia mencetak banyak gol dan memenangkan Liga Champions. Pada tahun 2017, Neymar pindah ke Paris Saint-Germain dengan rekor transfer tertinggi di dunia.</p>
+        <p>Dia juga menjadi bagian penting dari tim nasional Brasil, membantu mereka meraih medali emas di Olimpiade Rio 2016.</p>
+    </section>
 
-    <h2>Trofi & Penghargaan</h2>
-    <p><strong>Barcelona:</strong> Liga Champions UEFA (2014-15), La Liga (2014-15, 2015-16), Copa del Rey (2014-15, 2015-16, 2016-17)</p>
-    <p><strong>Paris Saint-Germain:</strong> Ligue 1 (4 kali), Coupe de France (3 kali), Coupe de la Ligue (2 kali)</p>
-    <p><strong>Tim Nasional Brasil:</strong> Medali emas Olimpiade (2016), Piala Konfederasi FIFA (2013)</p>
-    <p><strong>Penghargaan Individu:</strong> Pemain Terbaik Amerika Selatan (2011, 2012), FIFA FIFPro World XI (2015, 2017), Ballon d'Or Nominee (beberapa kali)</p>
+    <section id="statistik">
+        <h2>Statistik Karir</h2>
+        <table>
+            <tr>
+                <th>Tahun</th>
+                <th>Tim</th>
+                <th>Gol</th>
+                <th>Assist</th>
+            </tr>
+            <tr>
+                <td>2013-2017</td>
+                <td>Barcelona</td>
+                <td>105</td>
+                <td>76</td>
+            </tr>
+            <tr>
+                <td>2017-2023</td>
+                <td>PSG</td>
+                <td>90+</td>
+                <td>50+</td>
+            </tr>
+            <tr>
+                <td>2023-sekarang</td>
+                <td>Al-Hilal</td>
+                <td>7+</td>
+                <td>5+</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="galeri">
+        <h2>Galeri</h2>
+        <div class="gallery">
+            <img src="neymar4.jpeg" alt="Neymar Galeri" class="gallery-item">
+            <img src="neymar5.jpeg" alt="Neymar Galeri" class="gallery-item">
+        </div>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Neymar Jr</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
